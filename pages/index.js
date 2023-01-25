@@ -26,6 +26,7 @@ import Testimonials from "../components/Testimonials";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const names = ["Sijan Neupane", "Hari", "Shyam"];
   SwiperCore.use([Autoplay]);
   return (
     <>
@@ -37,9 +38,14 @@ export default function Home() {
       </Head>
       <main>
         <section>
-          <Swiper slidesPerView={1} autoplay={{ delay: 2000 }} speed={2000}>
+          <Swiper
+            slidesPerView={1}
+            autoplay={{ delay: 2000 }}
+            speed={2000}
+            loop={true}
+          >
             <SwiperSlide>
-              <div className=" w-full py-5 pl-[100px]">
+              <div className=" h-auto w-full xl:bg-white  sm:pl-10   md:pl-[100px]">
                 <Carousel
                   img={pasta}
                   text1="Home Is Where"
@@ -49,7 +55,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className=" w-full py-5 pl-[100px]">
+              <div className="xl:bg-white h-auto   w-full sm:pl-10 md:pl-[100px]">
                 <Carousel
                   img={pizza}
                   text1="Work Hard, Be Nice"
@@ -59,7 +65,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className=" w-full py-5 pl-[100px]">
+              <div className="xl:bg-white h-auto  w-full sm:pl-10 md:pl-[100px]">
                 <Carousel
                   img={panini}
                   text1="All You Need Is Love And"
@@ -71,8 +77,8 @@ export default function Home() {
           </Swiper>
         </section>
         {/* about us */}
-        <section className="h-[550px] font-century flex mt-[100px] item-center px-[100px]">
-          <div className="w-[630px] bg-primary flex flex-col justify-center p-10 text-center space-y-[25px]">
+        <section className="lg:h-[550px] w-full font-century flex flex-col lg:flex-row mt-[100px] mx-auto item-center md:px-[100px]">
+          <div className="lg:w-[630px] w-full bg-primary flex flex-col justify-center p-10 text-center space-y-[25px]">
             <h1 className="text-secondary font-[400] text-[26px] leading-[32px]">
               ABOUT US
             </h1>
@@ -106,7 +112,7 @@ export default function Home() {
               </button>
             </Link>
           </div>
-          <div className="h-full w-[610px] relative object-contain">
+          <div className="lg:h-full h-[550px] w-full lg:w-[610px] relative object-cover xl:object-contain">
             <Image src={ortobg} alt="orto" fill />
           </div>
         </section>
@@ -129,51 +135,33 @@ export default function Home() {
         </section>
 
         {/* testimonials */}
-        <section className="px-[160px] font-century flex flex-col justify-center space-y-[50px] pb-[100px]">
+        <section className="  xl:px-[160px] py-[100px] font-century flex flex-col justify-center space-y-[50px] mb-[100px] ">
           <h1 className="text-[36px] font-[700] leading-[44px] text-center">
             What Our Customers Say About Us
           </h1>
-          <div className=" w-full justify-center items-center flex h-full">
+          <div className="px-6 lg:px-[100px] w-full justify-center mx-auto items-center flex h-full overflow-hidden">
             <Swiper
               centeredSlides={true}
               grabCursor={true}
               speed={2000}
-              autoplay={{ delay: 1000, disableOnInteraction: false }}
-              slidesPerView={3}
+              autoplay={{ delay: 2000, pauseOnMouseEffect: false }}
+              gapwidth={20}
+              spaceBetween={50}
+              slidesPerView={1}
               loop={true}
             >
-              <SwiperSlide>
-                {({ isActive }) => (
-                  <Testimonials
-                    scale={isActive ? "  scale-100  shadow-xl" : "scale-75"}
-                    name="Sijan Neupane"
-                    title="It is awesome"
-                  />
-                )}
-              </SwiperSlide>
-              <SwiperSlide>
-                {({ isActive }) => (
-                  <Testimonials
-                    scale={isActive ? "  scale-100  shadow-xl" : "scale-75"}
-                    name="Hari"
-                    title="It is okay"
-                  />
-                )}
-              </SwiperSlide>
-              <SwiperSlide>
-                {({ isActive }) => (
-                  <Testimonials
-                    scale={isActive ? "  scale-100  shadow-xl" : "scale-75"}
-                    name="Radhe"
-                    title="It is what it is "
-                  />
-                )}
-              </SwiperSlide>
+              {names.map((name, index) => (
+                <SwiperSlide key={index}>
+                  {({ isActive }) => (
+                    <Testimonials fullName={name} title="It is awesome" />
+                  )}
+                </SwiperSlide>
+              ))}
             </Swiper>
           </div>
         </section>
         {/* newsletter */}
-        <section className="px-[100px] pb-[100px]">
+        <section className="md:px-[100px] ">
           <div className=" bg-[#EBEBEB] rounded-[20px]  flex flex-col gap-y-[25px] text-center font-century py-[50px]">
             <div className="flex flex-col ">
               <h1 className="font-[700] text-[36px] mb-[15px]">Subscribe</h1>
@@ -186,10 +174,10 @@ export default function Home() {
                 restaurant!
               </p>
             </div>
-            <div className="flex items-center w-full justify-between max-w-xl mx-auto space-x-[10px]">
+            <div className="flex flex-col gap-y-4 sm:flex-row items-center w-full justify-between max-w-xl mx-auto space-x-[10px]">
               <input
                 type="email"
-                className="flex-1 h-[60px] p-5 outline-none text-[#7B7E86] placeholder:text-[#7B7E86]"
+                className="flex-1 h-[60px] p-5 w-full sm:w-auto  outline-none text-[#7B7E86] placeholder:text-[#7B7E86]"
                 placeholder="Enter Your Email Address"
               />
               <button className="bg-black text-primary hover:bg-white h-[60px] px-6 py-3 ">

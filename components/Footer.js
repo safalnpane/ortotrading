@@ -5,19 +5,19 @@ import logo from "../public/ortoLogo.png";
 
 function Footer() {
   return (
-    <footer className="bg-[#98D1C9] bg-opacity-25  w-full p-[100px] font-century flex items-start justify-between">
-      <div className="space-y-[70px]">
-        <div className="space-y-[25px]">
-          <div className=" h-[70px] w-[70px] object-contain relative">
+    <footer className="bg-[#98D1C9]  mt-[100px] bg-opacity-25 px-2 sm:px-[50px] md:px-[100px] grid grid-cols-1 gap-5 sm:grid sm:grid-cols-2 md:gird md:grid-cols-3 lg:grid lg:grid-cols-4  w-full space-y-5 sm:space-y-20 sm:space-x-20 py-[100px] text-center sm:text-start">
+      <div className="space-y-[70px] mx-auto sm:mx-0">
+        <div className="space-y-[25px] ">
+          <div className=" h-[70px] w-[70px] object-contain relative mx-auto">
             <Image src={logo} alt="logo" fill />
           </div>
           <h3 className="font-[400] text-[16px] w-[216px]">
             The Perfect Restaurant For Pasta-Panini{" "}
           </h3>
         </div>
-        <div className="space-y-[20px] flex-col   ">
+        <div className="space-y-[20px] flex-col  w-full  ">
           {/* logo */}
-          <div className="flex items-center w-full justify-start ml-[-1rem] ">
+          <div className="flex items-center w-full justify-start flex-initial sm:-ml-5   ">
             <SocialIcon
               url="https://facebook.com/"
               bgColor="transparent"

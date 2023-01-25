@@ -13,7 +13,7 @@ function Navbar() {
         router.pathname == "/"
           ? "bg-white text-black sticky top-0 z-50"
           : "bg-black  absolute left-0 right-0 top-0 bg-opacity-10 text-white z-50"
-      }  flex items-center justify-between px-[90px]   py-5 h-[100px] font-century `}
+      }  flex items-center justify-between px-2 md:px-[90px]   py-5 h-[100px] font-century `}
     >
       <div className="relative h-[100px] w-[100px] object-contain">
         <Image src={logo} alt="logo" fill />
@@ -39,7 +39,7 @@ function Navbar() {
             </li>
           </Link>
 
-          <Link href="/menu">
+          <Link href={`/menu/${123}`}>
             <li
               className={`${
                 router.pathname == "/menu" ? "text-primary" : ""

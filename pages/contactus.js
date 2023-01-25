@@ -10,17 +10,17 @@ function contactus() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <section>
-        <div className="relative  h-[450px] w-full flex items-center justify-center  ">
+        <div className="relative  h-[450px] w-full object-cover aspect-square flex items-center justify-center  ">
           <Image src="/contactbg.png" alt="contactus" fill />
           <h1 className="font-century absolute mt-2 font-[700] text-[36px] text-white">
             CONTACT US
           </h1>
         </div>
 
-        <div className="px-[215px] py-[100px] flex items-center w-full justify-between ">
+        <div className="xl:px-[215px] lg:px-[100px]  py-[100px] flex items-center flex-col gap-y-10 lg:flex-row  w-full lg:justify-between ">
           {/* form */}
-          <div className="h-[512px] max-w-[528px] rounded-[8px] shadow-2xl px-[55px] flex-1 py-[50px]">
-            <h1 className="font-[700] text-[26px] text-primary leading-[31px]">
+          <div className="h-[512px]  max-w-[528px] rounded-[8px] shadow-2xl px-5 lg:px-[55px] flex-1 py-[50px]">
+            <h1 className="font-[700] text-[20px] sm:text-[26px] text-primary leading-[31px]">
               Write Us A Message
             </h1>
             <form className="mt-[30px] flex flex-col gap-y-[20px]">
@@ -84,14 +84,14 @@ function contactus() {
             </form>
           </div>
           {/* location */}
-          <div className="flex flex-col gap-y-[50px] font-century ">
+          <div className="flex flex-col gap-y-[50px] px-5 font-century ">
             <div className="flex items-center justify-between space-x-[25px]">
-              <div className="w-[85px] h-[85px] rounded-full flex items-center justify-center bg-primary text-white">
+              <div className="md:w-[85px] md:h-[85px] h-[50px] w-[50px] rounded-full flex items-center justify-center bg-primary text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="w-10 h-10"
+                  className="md:w-10 md:h-10 h-6 w-6"
                 >
                   <path
                     fillRule="evenodd"
@@ -101,19 +101,21 @@ function contactus() {
                 </svg>
               </div>
               <div>
-                <h1 className="font-[700] text-[26px] text-primary">Address</h1>
-                <p className="font-[700] text-[18px] text-secondary">
+                <h1 className="font-[700] text-[20px] md:text-[26px] text-primary">
+                  Address
+                </h1>
+                <p className="font-[700] text-[16px] md:text-[18px] text-secondary">
                   Sydney,Australia
                 </p>
               </div>
             </div>
             <div className="flex items-center justify-between space-x-[25px]">
-              <div className="w-[85px] h-[85px] rounded-full flex items-center justify-center bg-primary text-white">
+              <div className="md:w-[85px] md:h-[85px] h-[50px] w-[50px] rounded-full flex items-center justify-center bg-primary text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="w-10 h-10"
+                  className="md:w-10 md:h-10 h-6 w-6"
                 >
                   <path
                     fillRule="evenodd"
@@ -123,39 +125,43 @@ function contactus() {
                 </svg>
               </div>
               <div>
-                <h1 className="font-[700] text-[26px] text-primary">Phone</h1>
-                <p className="font-[700] text-[18px] text-secondary">
-                  13465811813168
+                <h1 className="font-[700] text-[20px] md:text-[26px] text-primary">
+                  Address
+                </h1>
+                <p className="font-[700] text-[16px] md:text-[18px] text-secondary">
+                  Sydney,Australia
                 </p>
               </div>
             </div>
             <div className="flex items-center justify-between space-x-[25px]">
-              <div className="w-[85px] h-[85px] rounded-full flex items-center justify-center bg-primary text-white">
+              <div className="md:w-[85px] md:h-[85px] h-[50px] w-[50px] rounded-full flex items-center justify-center bg-primary text-white">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="currentColor"
-                  className="w-10 h-10"
+                  className="md:w-10 md:h-10 h-6 w-6"
                 >
                   <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
                   <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
                 </svg>
               </div>
               <div>
-                <h1 className="font-[700] text-[26px] text-primary">Email</h1>
-                <p className="font-[700] text-[18px] text-secondary">
-                  info@gmail.com
+                <h1 className="font-[700] text-[20px] md:text-[26px] text-primary">
+                  Address
+                </h1>
+                <p className="font-[700] text-[16px] md:text-[18px] text-secondary">
+                  Sydney,Australia
                 </p>
               </div>
             </div>
           </div>
         </div>
         {/* map */}
-        <div className=" w-full h-[300px] relative object-contain  ">
+        <div className=" w-full h-[300px] relative object-cover  ">
           <Image src="/map.png" alt="map" fill />
         </div>
         {/* newsletter */}
-        <section className="px-[100px]  w-full my-[1rem]  ">
+        <section className="lg:px-[100px]  w-full my-[1rem]  ">
           <div className=" bg-[#EBEBEB] rounded-[20px]  flex flex-col gap-y-[25px] text-center font-century py-[50px]">
             <div className="flex flex-col ">
               <h1 className="font-[700] text-[36px] mb-[15px]">Subscribe</h1>
@@ -168,10 +174,10 @@ function contactus() {
                 restaurant!
               </p>
             </div>
-            <div className="flex items-center w-full justify-between max-w-xl mx-auto space-x-[10px]">
+            <div className="flex flex-col gap-y-5 md:flex-row items-center w-full justify-between max-w-xl mx-auto space-x-[10px]">
               <input
                 type="email"
-                className="flex-1 h-[60px] p-5 outline-none text-[#7B7E86] placeholder:text-[#7B7E86]"
+                className="flex-1 h-[60px] p-5 w-full outline-none text-[#7B7E86] placeholder:text-[#7B7E86]"
                 placeholder="Enter Your Email Address"
               />
               <button className="bg-black text-primary hover:bg-white h-[60px] px-6 py-3 ">
