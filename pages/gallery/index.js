@@ -12,20 +12,20 @@ function gallery() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <section>
-        <div className="relative  h-[450px] w-full flex items-center justify-center  ">
+        <div className="relative h-[200px] md:h-[450px] w-full flex items-center justify-center  ">
           <Image src="/gallerybg.png" alt="aboutus" fill />
-          <h1 className="font-century absolute mt-2 font-[700] text-[36px] text-white">
+          <h1 className="font-century absolute mt-2 font-[700] text-[24px] md:text-[36px] text-white">
             {toshow}
           </h1>
         </div>
-        <div className="py-[50px] px-10 w-full overflow-scroll no-scrollbar lg:px-[180px] flex items-center justify-center space-x-5">
+        <div className="py-[50px] px-[25px] w-full overflow-scroll no-scrollbar lg:px-[180px] flex items-center justify-center space-x-5">
           <button
             onClick={() => setToshow("Gallery")}
             className={`${
               toshow == "Gallery"
                 ? "bg-primary text-white border-primary"
                 : "  hover:bg-primary hover:text-white border-black text-secondary hover:border-primary"
-            } border px-5 py-3  font-century rounded-[18px]   font-[400]  text-[16px] `}
+            } border px-5 py-3  font-century rounded-[18px]   font-[400]   text-[14px] md:text-[16px] `}
           >
             All
           </button>
@@ -36,7 +36,7 @@ function gallery() {
               toshow == "Photo Gallery"
                 ? "bg-primary text-white border-primary"
                 : "  hover:bg-primary hover:text-white border-black text-secondary hover:border-primary"
-            } border px-5 py-3  font-century rounded-[18px]   font-[400]  text-[16px] `}
+            } border px-2 md:px-5 py-3  font-century rounded-[18px]   font-[400]   text-[14px] md:text-[16px] `}
           >
             Photo Gallery
           </button>
@@ -47,33 +47,42 @@ function gallery() {
               toshow == "Video Gallery"
                 ? "bg-primary text-white border-primary"
                 : "  hover:bg-primary hover:text-white border-black text-secondary hover:border-primary"
-            } border px-5 py-3  font-century rounded-[18px]   font-[400]  text-[16px] `}
+            } border px-2 md:px-5 py-3  font-century rounded-[18px]   font-[400]  text-[16px] `}
           >
             Video Gallery
           </button>
         </div>
         {/* gallery */}
-        <div className=" lg:px-[100px]  grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-[10px] ">
-          <div className="relative object-contain w-full h-[200px] ">
-            <Image src="/contactbg.png" alt="img" fill />
+        <div className="h-auto md:px-[100px]  grid grid-cols-3 grid-flow-rows gap-[5px] grid-flow-dense auto-rows-auto   ">
+          <div className="object-cover relative   w-full  align-middle h-full flex items-center justify-center">
+            <Image src="/galleryimg/img1.png" alt="" fill />
           </div>
-          <div className="relative md:row-span-2 h-full object-contain w-full  ">
-            <Image src="/menubg.png" alt="img" fill />
+          <div className="object-cover relative w-full row-span-2  align-middle h-full flex items-center justify-center">
+            <Image src="/galleryimg/img5.png" alt="" fill />
           </div>
-          <div className="relative object-contain w-full h-[200px] ">
-            <Image src="/contactbg.png" alt="img" fill />
+          <div className="object-cover relative  w-full h-[100px]  align-middle lg:h-[200px] flex items-center justify-center">
+            <Image src="/aboutusbg.png" alt="" fill />
           </div>
-          <div className="relative md:row-span-2 object-contain w-full h-full ">
-            <Image src="/contactbg.png" alt="img" fill />
+          <div className="object-cover relative w-full h-[100px] align-middle lg:h-full flex items-center justify-center">
+            <Image src="/galleryimg/img3.png" alt="" fill />
           </div>
-          <div className="relative object-contain w-full h-[200px] ">
-            <Image src="/contactbg.png" alt="img" fill />
+          <div className="object-cover relative  w-full h-[100px] align-middle lg:h-full flex items-center justify-center">
+            <Image src="/galleryimg/img2.png" alt="" fill />
           </div>
-          <div className="relative object-contain w-full h-[200px] ">
-            <Image src="/contactbg.png" alt="img" fill />
+          <div className="object-cover relative w-full h-[100px]  align-middle lg:h-full flex items-center justify-center">
+            <Image src="/burgersbg.png" alt="" fill />
           </div>
-          <div className="relative md:row-span-2 object-contain w-full h-full ">
-            <Image src="/contactbg.png" alt="img" fill />
+          <div className="object-cover relative w-full h-[100px] align-middle lg:h-[200px] flex items-center justify-center">
+            <Image src="/galleryimg/img4.png" alt="" fill />
+          </div>
+          <div className="object-cover relative w-full h-full row-span-2 align-middle flex items-center justify-center">
+            <Image src="/galleryimg/img3.png" alt="" fill />
+          </div>
+          <div className="object-cover relative w-full h-[100px]  align-middle lg:h-[200px] flex items-center justify-center">
+            <Image src="/galleryimg/img2.png" alt="" fill />
+          </div>
+          <div className="object-cover relative w-full h-[100px]  align-middle lg:h-[200px] flex items-center justify-center">
+            <Image src="/burgersbg.png" alt="" fill />
           </div>
         </div>
       </section>

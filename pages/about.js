@@ -12,13 +12,13 @@ function aboutUs() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <section>
-        <div className="relative  h-[450px] w-full flex items-center justify-center  ">
+        <div className="relative h-[200px]  md:h-[450px] w-full flex items-center justify-center  ">
           <Image src={bg} alt="aboutus" fill />
-          <h1 className="font-century absolute  font-[700] text-[30px] sm:text-[36px] text-white">
+          <h1 className="font-century absolute  font-[700] text-[24px] md:text-[30px] sm:text-[36px] text-white">
             ABOUT US
           </h1>
         </div>
-        <div className=" flex flex-col gap-y-5 lg:gap-y-0 lg:flex-row items-center py-[100px] px-[20px] sm:px-[100px] w-full lg:justify-between lg:space-x-10">
+        <div className=" flex flex-col gap-y-5 lg:gap-y-0 lg:flex-row items-center py-[50px] md:py-[100px] px-[20px] sm:px-[100px] w-full lg:justify-between lg:space-x-10">
           <div className="flex flex-col space-y-[25px] lg:flex-1 lg:mx-auto w-full ">
             <div className="lg:text-center">
               <div className="mb-[10px] text-center">
@@ -48,7 +48,7 @@ function aboutUs() {
             <Image src="/ortobg.png" alt="ortobg" fill />
           </div>
         </div>
-        <div className=" flex flex-col gap-y-10 lg:gap-y-0 lg:flex-row items-center px-[20px] sm:px-[100px] py-[100px] w-full lg:justify-between lg:space-x-10">
+        <div className=" flex flex-col gap-y-10 lg:gap-y-0 lg:flex-row items-center px-[20px] sm:px-[100px] py-[50px] md:py-[100px] w-full lg:justify-between lg:space-x-10">
           <div className="relative object-contain h-[400px] w-full lg:w-[600px] lg:flex-1">
             <Image src="/ortobg.png" alt="ortobg" fill />
           </div>

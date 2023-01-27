@@ -15,7 +15,7 @@ import fishbg from "../public/fishbg.png";
 import steaksbg from "../public/steaksbg.png";
 import pastabg from "../public/pastabg.png";
 import pasta from "../public/pasta.svg";
-import pizza from "../public/pizza.svg";
+import pizza from "../public/pizza2.svg";
 import panini from "../public/panini.svg";
 import ortobg from "../public/ortobg.png";
 import Link from "next/link";
@@ -45,7 +45,7 @@ export default function Home() {
             loop={true}
           >
             <SwiperSlide>
-              <div className=" h-auto w-full xl:bg-white  sm:pl-10   md:pl-[100px]">
+              <div className=" h-auto w-full xl:bg-white   sm:pl-[25px]   lg:pl-[100px]">
                 <Carousel
                   img={pasta}
                   text1="Home Is Where"
@@ -55,7 +55,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="xl:bg-white h-auto   w-full sm:pl-10 md:pl-[100px]">
+              <div className="xl:bg-white h-auto   w-full sm:pl-[25px] lg:pl-[100px]">
                 <Carousel
                   img={pizza}
                   text1="Work Hard, Be Nice"
@@ -65,7 +65,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="xl:bg-white h-auto  w-full sm:pl-10 md:pl-[100px]">
+              <div className="xl:bg-white h-auto  w-full sm:pl-[25px] lg:pl-[100px]">
                 <Carousel
                   img={panini}
                   text1="All You Need Is Love And"
@@ -77,7 +77,7 @@ export default function Home() {
           </Swiper>
         </section>
         {/* about us */}
-        <section className="lg:h-[550px] w-full font-century flex flex-col lg:flex-row mt-[100px] mx-auto item-center md:px-[100px]">
+        <section className="lg:h-[550px] w-full font-century flex flex-col lg:flex-row mt-[50px] md:mt-[100px] mx-auto item-center  md:px-[100px]">
           <div className="lg:w-[630px] w-full bg-primary flex flex-col justify-center p-10 text-center space-y-[25px]">
             <h1 className="text-secondary font-[400] text-[26px] leading-[32px]">
               ABOUT US
@@ -135,7 +135,7 @@ export default function Home() {
         </section>
 
         {/* testimonials */}
-        <section className="  xl:px-[160px] py-[100px] font-century flex flex-col justify-center space-y-[50px] mb-[100px] ">
+        <section className="  xl:px-[160px] py-[50px] font-century flex flex-col justify-center space-y-[50px] mb-[50px] ">
           <h1 className="text-[36px] font-[700] leading-[44px] text-center">
             What Our Customers Say About Us
           </h1>
@@ -162,7 +162,7 @@ export default function Home() {
         </section>
         {/* newsletter */}
         <section className="md:px-[100px] ">
-          <div className=" bg-[#EBEBEB] rounded-[20px]  flex flex-col gap-y-[25px] text-center font-century py-[50px]">
+          <div className=" bg-[#EBEBEB] rounded-[20px] px-4  flex flex-col gap-y-[25px] text-center font-century py-[50px]">
             <div className="flex flex-col ">
               <h1 className="font-[700] text-[36px] mb-[15px]">Subscribe</h1>
               <div className="w-[100px] h-[3px] bg-black mx-auto"></div>

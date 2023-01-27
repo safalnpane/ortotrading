@@ -5,19 +5,19 @@ import logo from "../public/ortoLogo.png";
 
 function Footer() {
   return (
-    <footer className="bg-[#98D1C9]  mt-[100px] bg-opacity-25 px-2 sm:px-[50px] md:px-[100px] grid grid-cols-1 gap-5 sm:grid sm:grid-cols-2 md:gird md:grid-cols-3 lg:grid lg:grid-cols-4  w-full space-y-5 sm:space-y-20 sm:space-x-20 py-[100px] text-center sm:text-start">
-      <div className="space-y-[70px] mx-auto sm:mx-0">
+    <footer className="bg-[#98D1C9]  mt-[100px] bg-opacity-25 px-2 sm:px-[50px] md:px-[100px] justify-items-stretch xl:flex xl:items-start xl:justify-center py-[100px] grid grid-cols-1 gap-5 sm:grid sm:grid-cols-2 sm:gap-y-10 md:grid md:grid-cols-3 md:gap-y-10 mx-auto  ">
+      <div className="space-y-[70px] text-center ">
         <div className="space-y-[25px] ">
-          <div className=" h-[70px] w-[70px] object-contain relative mx-auto">
+          <div className=" h-[70px] w-[70px] object-contain relative mx-auto ">
             <Image src={logo} alt="logo" fill />
           </div>
-          <h3 className="font-[400] text-[16px] w-[216px]">
+          <h3 className="font-[400] text-[16px] w-full">
             The Perfect Restaurant For Pasta-Panini{" "}
           </h3>
         </div>
         <div className="space-y-[20px] flex-col  w-full  ">
           {/* logo */}
-          <div className="flex items-center w-full justify-start flex-initial sm:-ml-5   ">
+          <div className="flex items-center w-full justify-center flex-initial  mx-auto   ">
             <SocialIcon
               url="https://facebook.com/"
               bgColor="transparent"
@@ -56,7 +56,7 @@ function Footer() {
             />
           </div>
           {/* contact us  */}
-          <div>
+          <div className="mx-auto">
             <button className="font-century border w-[10rem] mx-auto border-black rounded-xl hover:border-white p-3 text-secondary font-[400] text-[20px] hover:bg-white hover:shadow-2xl hover:text-secondary">
               {" "}
               Contact Us
@@ -64,7 +64,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col gap-y-[22px] ">
+      <div className="flex flex-col gap-y-[22px] w-full text-center">
         <h1 className="font-[700] font-century text-[22px] leading-[27px]">
           Quick Links
         </h1>
@@ -77,7 +77,7 @@ function Footer() {
           <li>Contact Us</li>
         </ul>
       </div>
-      <div className="flex flex-col gap-y-[22px] ">
+      <div className="flex flex-col gap-y-[22px] w-full text-center">
         <h1 className="font-[700] font-century text-[22px] leading-[27px]">
           Menu
         </h1>
@@ -92,8 +92,8 @@ function Footer() {
           <li>Desserts</li>
         </ul>
       </div>
-      <div className="flex flex-col gap-y-[22px] ">
-        <h1 className="font-[700] font-century text-[22px] leading-[27px]">
+      <div className="flex flex-col gap-y-[22px] w-full text-center">
+        <h1 className="font-[700] font-century text-[22px] leading-[27px] ">
           Join Our Team
         </h1>
         <ul className="flex flex-col gap-y-[22px] font-[400] text-[16px] leading-[20px] text-secondary">
@@ -103,7 +103,7 @@ function Footer() {
         </ul>
       </div>
       <div></div>
-      <div className="flex flex-col gap-y-[22px] ">
+      <div className="flex flex-col gap-y-[22px] w-full text-center">
         <h1 className="font-[700] font-century text-[22px] leading-[27px]">
           Location
         </h1>
