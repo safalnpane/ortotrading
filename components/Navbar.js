@@ -42,7 +42,7 @@ function Navbar() {
             </li>
           </Link>
 
-          <Link href={`/menu/${123}`}>
+          <Link href="/menu/pizza">
             <li
               className={`${
                 router.pathname == "/menu" ? "text-primary" : ""
@@ -115,7 +115,7 @@ function Navbar() {
                 About
               </li>
             </Link>
-            <Link href="/menu/123">
+            <Link href="/menu/pizza">
               <li
                 className="cursor-pointer py-3 border-b-2 border-primary"
                 onClick={() => setShow(false)}

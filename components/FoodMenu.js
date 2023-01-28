@@ -8,7 +8,9 @@ function FoodMenu({ background, name }) {
         name == "Drinks" || name == "Steaks"
           ? "w-[300px] lg:w-[230px]"
           : "w-[300px]"
-      }  relative object-contain sm:mr-[20px] mt-4`}
+      }  relative object-contain sm:mr-[20px] ${
+        name == "Pasta" ? "mt-4" : "mt-0"
+      }`}
     >
       <Image src={background} alt="background" fill />
       <h1 className=" absolute z-20 right-0 left-0 top-20 bottom-0 flex items-center justify-center text-white font-[700] text-[22px] leading-[24px] font-century">

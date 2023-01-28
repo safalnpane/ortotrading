@@ -123,14 +123,30 @@ export default function Home() {
             Our Menu
           </h1>
           <div className="flex flex-wrap items-center justify-center w-full  space-y-[20px]">
-            <FoodMenu background={pastabg} name="Pasta" />
-            <FoodMenu background={paninibg} name="Panini" />
-            <FoodMenu background={fishbg} name="Fish" />
-            <FoodMenu background={steaksbg} name="Steaks" />
-            <FoodMenu background={burgersbg} name="Burgers" />
-            <FoodMenu background={desertsbg} name="Deserts" />
-            <FoodMenu background={drinksbg} name="Drinks" />
-            <FoodMenu background={appitizersbg} name="Appitizers" />
+            <Link href="/menu/pasta">
+              <FoodMenu background={pastabg} name="Pasta" />
+            </Link>
+            <Link href="/menu/panini">
+              <FoodMenu background={paninibg} name="Panini" />
+            </Link>
+            <Link href="/menu/fish">
+              <FoodMenu background={fishbg} name="Fish" />
+            </Link>
+            <Link href="/menu/steaks">
+              <FoodMenu background={steaksbg} name="Steaks" />
+            </Link>
+            <Link href="/menu/burgers">
+              <FoodMenu background={burgersbg} name="Burgers" />
+            </Link>
+            <Link href="/menu/deserts">
+              <FoodMenu background={desertsbg} name="Deserts" />
+            </Link>
+            <Link href="/menu/drinks">
+              <FoodMenu background={drinksbg} name="Drinks" />
+            </Link>
+            <Link href="/menu/appitizers">
+              <FoodMenu background={appitizersbg} name="Appitizers" />
+            </Link>
           </div>
         </section>
 
