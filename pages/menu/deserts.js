@@ -62,7 +62,32 @@ function pizza() {
               </p>
               <div className="bg-gradient-to-r from-primary to-white h-[3px]  w-[220px]"></div>
             </div>
-            <div className="grid grid-cols-1  lg:grid lg:grid-cols-2  w-full mt-[50px] lg:gap-x-[40px] gap-y-[2rem] "></div>
+            <div className="grid grid-cols-1  lg:grid lg:grid-cols-2  w-full mt-[50px] lg:gap-x-[40px] gap-y-[2rem] ">
+              {/* the one menu component starts from here */}
+              <div className="flex flex-col gap-y-[10px] ">
+                <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
+                  <Image
+                    src="https://imgs.search.brave.com/0AwsNhFZWP4CnEnlOpSFZnBSWONRqI4Ee-HTzJTnppQ/rs:fit:1200:800:1/g:ce/aHR0cHM6Ly90aGVo/YWJpdGF0Lm1ibHlj/ZG4uY29tL3VwbG9h/ZHMvdGgvMjAyMC8w/OC9HZXR0eUltYWdl/cy02NDEyMzc1MzBf/MTM0MHg4MDBfYWNm/X2Nyb3BwZWQuanBn"
+                    alt="menu"
+                    fill
+                    className="rounded-xl"
+                  />
+                </div>
+                <div className="flex items-center w-full  justify-between space-x-5 ">
+                  <h1 className="font-[700] font-century text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-2">
+                    Chesse Cake
+                  </h1>
+                  <div className="flex items-center  space-x-[14px] ">
+                    <div className="h-[2px] bg-primary w-10 sm:w-20 flex-1"></div>
+                    <p className="text-primary">$20</p>
+                  </div>
+                </div>
+                <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
+                  CHeese and cake
+                </p>
+              </div>
+              {/* and ends in here */}
+            </div>
           </div>
         </div>
       </section>
