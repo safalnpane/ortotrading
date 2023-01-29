@@ -25,38 +25,28 @@ function pasta() {
             </button>
           </Link>
           <Link href="/menu/pasta">
-            <button className="hover:bg-primary bg-primary  text-white px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-primary font-[400] text-[14px] md:text-[16px] ">
+            <button className="hover:bg-primary text-secondary px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-secondary font-[400] text-[14px] md:text-[16px] ">
               Pasta
             </button>
           </Link>
-          <Link href="/menu/fish">
-            <button className="hover:bg-primary text-secondary px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-secondary font-[400] text-[14px] md:text-[16px]">
-              Fish
+          <Link href="/menu/primi">
+            <button className="hover:bg-primary bg-primary text-white  px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-primary font-[400] text-[14px] md:text-[16px]">
+              Primi
             </button>
           </Link>
-          <Link href="/menu/burgers">
+          <Link href="/menu/insalata">
             <button className="hover:bg-primary text-secondary px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-secondary font-[400] text-[14px] md:text-[16px]">
-              Burgers
-            </button>
-          </Link>
-          <Link href="/menu/drinks">
-            <button className="hover:bg-primary text-secondary px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-secondary font-[400] text-[14px] md:text-[16px]">
-              Drinks
-            </button>
-          </Link>
-          <Link href="/menu/appitizers">
-            <button className="hover:bg-primary   px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-secondary font-[400] text-[14px] md:text-[16px]">
-              Appitizers
-            </button>
-          </Link>
-          <Link href="/menu/steaks">
-            <button className="hover:bg-primary text-secondary px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-secondary font-[400] text-[14px] md:text-[16px]">
-              Steaks
+              insalata
             </button>
           </Link>
           <Link href="/menu/deserts">
             <button className="hover:bg-primary text-secondary px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-secondary font-[400] text-[14px] md:text-[16px]">
               Deserts
+            </button>
+          </Link>
+          <Link href="/menu/panini">
+            <button className="hover:bg-primary   px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-secondary font-[400] text-[14px] md:text-[16px]">
+              Panini
             </button>
           </Link>
         </div>
@@ -81,7 +71,7 @@ function pasta() {
               {/* left side */}
 
               <div className="flex items-start space-x-2">
-                <div className="h-[5rem] w-[7rem] relative object-cover">
+                <div className="h-[5rem] w-[9rem] relative object-cover">
                   <Image
                     src="/linguini.jpg"
                     alt="menu"
