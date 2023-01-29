@@ -64,82 +64,72 @@ function pizza() {
             </div>
             <div className="grid grid-cols-1  lg:grid lg:grid-cols-2  w-full mt-[50px] lg:gap-x-[40px] gap-y-[2rem] ">
               {/* left side */}
-
-              <div className="flex items-start space-x-2">
-                <div className="h-[5rem] w-[7rem] relative object-cover">
+              <div className="flex flex-col gap-y-[10px] ">
+                <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/linguini.jpg"
+                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
                     alt="menu"
                     fill
-                    className="rounded-full "
+                    className="rounded-xl"
                   />
                 </div>
-
-                <div className="flex flex-col gap-y-[13px] ">
-                  <div className="flex items-center  justify-between md:space-x-5">
-                    <h1 className="font-[700] text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-1">
-                      Steamed greens
-                    </h1>
-                    <div className="flex items-center w-full space-x-[14px] flex-1">
-                      <div className="h-[2px] bg-primary w-full md:w-[12rem] "></div>
-                      <p className="text-primary">$10</p>
-                    </div>
+                <div className="flex items-center w-full  justify-between space-x-5 ">
+                  <h1 className="font-[700] font-century text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-2">
+                    Steamed greens
+                  </h1>
+                  <div className="flex items-center  space-x-[14px] ">
+                    <div className="h-[2px] bg-primary w-10 sm:w-20 flex-1"></div>
+                    <p className="text-primary">$20</p>
                   </div>
-                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
-                    Sauteed in garlic lemon extra virgin olive oil{" "}
-                    <b>(v)(vg)</b>
-                  </p>
                 </div>
+                <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
+                  Sauteed in garlic lemon extra virgin olive oil <b>(v)(vg)</b>
+                </p>
               </div>
-              <div className="flex items-start space-x-2">
-                <div className="h-[5rem] w-[7rem] relative object-cover">
+              <div className="flex flex-col gap-y-[10px] ">
+                <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/linguini.jpg"
+                    src="https://imgs.search.brave.com/4AZnz6yMk2cC0NwEt4BDEMWtvCCyXR8W6ZCygP2_8ng/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9jYXJs/eXNyZWNpcGUuY29t/L3dwLWNvbnRlbnQv/dXBsb2Fkcy8yMDE1/LzEyL2ltZ184MDE0/LTAuanBn"
                     alt="menu"
                     fill
-                    className="rounded-full "
+                    className="rounded-xl"
                   />
                 </div>
-
-                <div className="flex flex-col gap-y-[13px] ">
-                  <div className="flex items-center  justify-between md:space-x-5">
-                    <h1 className="font-[700] text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-1">
-                      Rocket parmesan salad
-                    </h1>
-                    <div className="flex items-center w-full space-x-[14px] flex-1">
-                      <div className="h-[2px] bg-primary w-full md:w-[12rem] "></div>
-                      <p className="text-primary">$10</p>
-                    </div>
+                <div className="flex items-center w-full  justify-between space-x-5 ">
+                  <h1 className="font-[700] font-century text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-2">
+                    Rocket parmesan salad
+                  </h1>
+                  <div className="flex items-center  space-x-[14px] ">
+                    <div className="h-[2px] bg-primary w-10 sm:w-20 flex-1"></div>
+                    <p className="text-primary">$20</p>
                   </div>
-                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
-                    Rocket parmesan lemon and extra virgin olive oil <b>(v)</b>
-                  </p>
                 </div>
+                <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
+                  Rocket parmesan lemon and extra virgin olive oil <b>(v)</b>
+                </p>
               </div>
-              <div className="flex items-start space-x-2">
-                <div className="h-[5rem] w-[7rem] relative object-cover">
+
+              <div className="flex flex-col gap-y-[10px] ">
+                <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/linguini.jpg"
+                    src="https://imgs.search.brave.com/SlE3MNifJ2zLhwbtzkoBwBEKKfzIZuwAzVkCJlzCwG4/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzljLzlm/L2MxLzljOWZjMThk/ODYzNGEzYjUzYmZh/Mjg0ZGMwOGYxZWI2/LmpwZw"
                     alt="menu"
                     fill
-                    className="rounded-full "
+                    className="rounded-xl"
                   />
                 </div>
-
-                <div className="flex flex-col gap-y-[13px] ">
-                  <div className="flex items-center  justify-between md:space-x-5">
-                    <h1 className="font-[700] text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-1">
-                      Fresh tomato and basil
-                    </h1>
-                    <div className="flex items-center w-full space-x-[14px] flex-1">
-                      <div className="h-[2px] bg-primary w-full md:w-[12rem] "></div>
-                      <p className="text-primary">$10</p>
-                    </div>
+                <div className="flex items-center w-full  justify-between space-x-5 ">
+                  <h1 className="font-[700] font-century text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-2">
+                    Fresh tomato and basil
+                  </h1>
+                  <div className="flex items-center  space-x-[14px] ">
+                    <div className="h-[2px] bg-primary w-10 sm:w-20 flex-1"></div>
+                    <p className="text-primary">$20</p>
                   </div>
-                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
-                    Fresh tomato, basil, red onion, EVO, lemon juice
-                  </p>
                 </div>
+                <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
+                  Fresh tomato, basil, red onion, EVO, lemon juice
+                </p>
               </div>
             </div>
           </div>
