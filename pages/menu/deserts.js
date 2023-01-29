@@ -13,7 +13,7 @@ function pizza() {
       </Head>
       <section>
         <div className="relative h-[200px] lg:h-[450px] w-full  flex items-center justify-center object-cover  ">
-          <Image src="/pizza2.png" alt="aboutus" fill />
+          <Image src="https://images.unsplash.com/photo-1611292984550-6dd8def2e668?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2207&q=80" alt="aboutus" fill />
           <h1 className="font-century absolute mt-2 font-[700] text-[24px] md:text-[36px] text-white">
             DESERTS
           </h1>
@@ -63,11 +63,10 @@ function pizza() {
               <div className="bg-gradient-to-r from-primary to-white h-[3px]  w-[220px]"></div>
             </div>
             <div className="grid grid-cols-1  lg:grid lg:grid-cols-2  w-full mt-[50px] lg:gap-x-[40px] gap-y-[2rem] ">
-              {/* the one menu component starts from here */}
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://imgs.search.brave.com/0AwsNhFZWP4CnEnlOpSFZnBSWONRqI4Ee-HTzJTnppQ/rs:fit:1200:800:1/g:ce/aHR0cHM6Ly90aGVo/YWJpdGF0Lm1ibHlj/ZG4uY29tL3VwbG9h/ZHMvdGgvMjAyMC8w/OC9HZXR0eUltYWdl/cy02NDEyMzc1MzBf/MTM0MHg4MDBfYWNm/X2Nyb3BwZWQuanBn"
+                    src="https://images.unsplash.com/photo-1611292984550-6dd8def2e668?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2207&q=80"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -75,15 +74,15 @@ function pizza() {
                 </div>
                 <div className="flex items-center w-full  justify-between space-x-5 ">
                   <h1 className="font-[700] font-century text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-2">
-                    Chesse Cake
+                    Sicilian Cannoli
                   </h1>
                   <div className="flex items-center  space-x-[14px] ">
                     <div className="h-[2px] bg-primary w-10 sm:w-20 flex-1"></div>
-                    <p className="text-primary">$20</p>
+                    <p className="text-primary">$7</p>
                   </div>
                 </div>
                 <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
-                  CHeese and cake
+                  Sweet ricotta fill with crumbled pistachio
                 </p>
               </div>
               {/* and ends in here */}

@@ -8,29 +8,29 @@ function pasta() {
   return (
     <>
       <Head>
-        <title>Orto | Menu </title>
+        <title>Orto | Pasta </title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <section>
         <div className="relative h-[200px] lg:h-[450px] w-full object-fill flex items-center justify-center  ">
           <Image src="/menubg.png" alt="aboutus" fill />
           <h1 className="font-century absolute mt-2 font-[700] text-[24px] md:text-[36px] text-white">
-            MENU/ PASTA
+          PASTA
           </h1>
         </div>
         <div className="py-[50px] overflow-y-scroll no-scrollbar space-x-5 px-[20px] lg:px-[180px] w-full justify-between flex items-center lg:justify-around">
           <Link href="/menu/panini">
-            <button className="hover:bg-primary   px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-secondary font-[400] text-[14px] md:text-[16px]">
+            <button className="hover:bg-primary   text-secondary px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-secondary font-[400] text-[14px] md:text-[16px]">
               Panini
             </button>
           </Link>
           <Link href="/menu/pasta">
-            <button className="hover:bg-primary text-secondary px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-secondary font-[400] text-[14px] md:text-[16px] ">
+            <button className="bg-primary text-white px-5 py-3 hover:text-white font-century rounded-[18px] border-primary border font-[400] text-[14px] md:text-[16px] ">
               Pasta
             </button>
           </Link>
           <Link href="/menu/primi">
-            <button className="hover:bg-primary bg-primary text-white  px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-primary font-[400] text-[14px] md:text-[16px]">
+            <button className="hover:bg-primary text-secondary  px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-secondary font-[400] text-[14px] md:text-[16px]">
               Primi
             </button>
           </Link>
@@ -42,11 +42,6 @@ function pasta() {
           <Link href="/menu/deserts">
             <button className="hover:bg-primary text-secondary px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-secondary font-[400] text-[14px] md:text-[16px]">
               Deserts
-            </button>
-          </Link>
-          <Link href="/menu/panini">
-            <button className="hover:bg-primary   px-5 py-3 hover:text-white font-century rounded-[18px] hover:border-primary border border-secondary font-[400] text-[14px] md:text-[16px]">
-              Panini
             </button>
           </Link>
         </div>
@@ -68,260 +63,226 @@ function pasta() {
               <div className="bg-gradient-to-r from-primary to-white h-[3px]  w-[220px]"></div>
             </div>
             <div className="grid grid-cols-1  lg:grid lg:grid-cols-2  w-full mt-[50px] lg:gap-x-[40px] gap-y-[2rem] ">
-              {/* left side */}
 
-              <div className="flex items-start space-x-2">
-                <div className="h-[5rem] w-[9rem] relative object-cover">
+              <div className="flex flex-col gap-y-[10px] ">
+                <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/linguini.jpg"
+                    src="https://images.unsplash.com/photo-1621523439264-3ade1eca1109?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80"
                     alt="menu"
                     fill
-                    className="rounded-full "
+                    className="rounded-xl"
                   />
                 </div>
-
-                <div className="flex flex-col gap-y-[13px] ">
-                  <div className="flex items-center  justify-between md:space-x-5">
-                    <h1 className="font-[700] text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-1">
-                      Linguini prawns orthodox
-                    </h1>
-                    <div className="flex items-center w-full space-x-[14px] flex-1">
-                      <div className="h-[2px] bg-primary w-full md:w-[12rem] "></div>
-                      <p className="text-primary">$20</p>
-                    </div>
+                <div className="flex items-center w-full  justify-between space-x-5 ">
+                  <h1 className="font-[700] font-century text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-2">
+                    Rigatoni Norma
+                  </h1>
+                  <div className="flex items-center  space-x-[14px] ">
+                    <div className="h-[2px] bg-primary w-10 sm:w-20 flex-1"></div>
+                    <p className="text-primary">$16</p>
                   </div>
-                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
-                    Rocket, Cherry tomatoes, garlic, chill & Olives
-                  </p>
                 </div>
+                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
+                    Eggplant, cherry tomato, fresh basil, ricotta cheese <b>(v)</b>
+                  </p>
               </div>
-              <div className="flex items-start space-x-2">
-                <div className="h-[5rem] w-[7rem] relative object-cover">
+              <div className="flex flex-col gap-y-[10px] ">
+                <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/linguini.jpg"
+                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
                     alt="menu"
                     fill
-                    className="rounded-full "
+                    className="rounded-xl"
                   />
                 </div>
-
-                <div className="flex flex-col gap-y-[13px] ">
-                  <div className="flex items-center  justify-between md:space-x-5">
-                    <h1 className="font-[700] text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-1">
-                      Linguini prawns orthodox
-                    </h1>
-                    <div className="flex items-center w-full space-x-[14px] flex-1">
-                      <div className="h-[2px] bg-primary w-full md:w-[12rem] "></div>
-                      <p className="text-primary">$20</p>
-                    </div>
+                <div className="flex items-center w-full  justify-between space-x-5 ">
+                  <h1 className="font-[700] font-century text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-2">
+                    Ravioli spinach ricotta
+                  </h1>
+                  <div className="flex items-center  space-x-[14px] ">
+                    <div className="h-[2px] bg-primary w-10 sm:w-20 flex-1"></div>
+                    <p className="text-primary">$17</p>
                   </div>
-                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
-                    Rocket, Cherry tomatoes, garlic, chill & Olives
-                  </p>
                 </div>
+                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
+                    Tomato salsa, roasted capsicum, fresh riotta, touch of cream <b>(v)</b>
+                  </p>
               </div>
-              <div className="flex items-start space-x-2">
-                <div className="h-[5rem] w-[7rem] relative object-cover">
+              <div className="flex flex-col gap-y-[10px] ">
+                <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/linguini.jpg"
+                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
                     alt="menu"
                     fill
-                    className="rounded-full "
+                    className="rounded-xl"
                   />
                 </div>
-
-                <div className="flex flex-col gap-y-[13px] ">
-                  <div className="flex items-center  justify-between md:space-x-5">
-                    <h1 className="font-[700] text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-1">
-                      Linguini prawns orthodox
-                    </h1>
-                    <div className="flex items-center w-full space-x-[14px] flex-1">
-                      <div className="h-[2px] bg-primary w-full md:w-[12rem] "></div>
-                      <p className="text-primary">$20</p>
-                    </div>
+                <div className="flex items-center w-full  justify-between space-x-5 ">
+                  <h1 className="font-[700] font-century text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-2">
+                    Rigatoni Sallmone
+                  </h1>
+                  <div className="flex items-center  space-x-[14px] ">
+                    <div className="h-[2px] bg-primary w-10 sm:w-20 flex-1"></div>
+                    <p className="text-primary">$18</p>
                   </div>
-                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
-                    Rocket, Cherry tomatoes, garlic, chill & Olives
-                  </p>
                 </div>
+                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
+                    Smoked salmon, roasted capsicum, red onion, capers, pink sauce
+                  </p>
               </div>
-              <div className="flex items-start space-x-2">
-                <div className="h-[5rem] w-[7rem] relative object-cover">
+              <div className="flex flex-col gap-y-[10px] ">
+                <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/linguini.jpg"
+                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
                     alt="menu"
                     fill
-                    className="rounded-full "
+                    className="rounded-xl"
                   />
                 </div>
-
-                <div className="flex flex-col gap-y-[13px] ">
-                  <div className="flex items-center  justify-between md:space-x-5">
-                    <h1 className="font-[700] text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-1">
-                      Linguini prawns orthodox
-                    </h1>
-                    <div className="flex items-center w-full space-x-[14px] flex-1">
-                      <div className="h-[2px] bg-primary w-full md:w-[12rem] "></div>
-                      <p className="text-primary">$20</p>
-                    </div>
+                <div className="flex items-center w-full  justify-between space-x-5 ">
+                  <h1 className="font-[700] font-century text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-2">
+                    Linguini Gamberi
+                  </h1>
+                  <div className="flex items-center  space-x-[14px] ">
+                    <div className="h-[2px] bg-primary w-10 sm:w-20 flex-1"></div>
+                    <p className="text-primary">$19</p>
                   </div>
-                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
-                    Rocket, Cherry tomatoes, garlic, chill & Olives
-                  </p>
                 </div>
+                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
+                    King prawns, cherry tomato, rocket, black olives, capers, chilli, garlic
+                  </p>
               </div>
-              <div className="flex items-start space-x-2">
-                <div className="h-[5rem] w-[7rem] relative object-cover">
+              <div className="flex flex-col gap-y-[10px] ">
+                <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/linguini.jpg"
+                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
                     alt="menu"
                     fill
-                    className="rounded-full "
+                    className="rounded-xl"
                   />
                 </div>
-
-                <div className="flex flex-col gap-y-[13px] ">
-                  <div className="flex items-center  justify-between md:space-x-5">
-                    <h1 className="font-[700] text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-1">
-                      Linguini prawns orthodox
-                    </h1>
-                    <div className="flex items-center w-full space-x-[14px] flex-1">
-                      <div className="h-[2px] bg-primary w-full md:w-[12rem] "></div>
-                      <p className="text-primary">$20</p>
-                    </div>
+                <div className="flex items-center w-full  justify-between space-x-5 ">
+                  <h1 className="font-[700] font-century text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-2">
+                    Malfade chi' Sarde
+                  </h1>
+                  <div className="flex items-center  space-x-[14px] ">
+                    <div className="h-[2px] bg-primary w-10 sm:w-20 flex-1"></div>
+                    <p className="text-primary">$17</p>
                   </div>
-                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
-                    Rocket, Cherry tomatoes, garlic, chill & Olives
-                  </p>
                 </div>
+                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
+                    Tomato salsa, sardines, anchovies, raisins, panngrattato, pinenuts
+                  </p>
               </div>
-              {/* right side */}
-
-              <div className="flex items-start space-x-2">
-                <div className="h-[5rem] w-[7rem] relative object-cover">
+              <div className="flex flex-col gap-y-[10px] ">
+                <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/linguini.jpg"
+                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
                     alt="menu"
                     fill
-                    className="rounded-full "
+                    className="rounded-xl"
                   />
                 </div>
-
-                <div className="flex flex-col gap-y-[13px] ">
-                  <div className="flex items-center  justify-between md:space-x-5">
-                    <h1 className="font-[700] text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-1">
-                      Linguini prawns orthodox
-                    </h1>
-                    <div className="flex items-center w-full space-x-[14px] flex-1">
-                      <div className="h-[2px] bg-primary w-full md:w-[12rem] "></div>
-                      <p className="text-primary">$20</p>
-                    </div>
+                <div className="flex items-center w-full  justify-between space-x-5 ">
+                  <h1 className="font-[700] font-century text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-2">
+                    Mushroom Ragu Linguini
+                  </h1>
+                  <div className="flex items-center  space-x-[14px] ">
+                    <div className="h-[2px] bg-primary w-10 sm:w-20 flex-1"></div>
+                    <p className="text-primary">$16</p>
                   </div>
-                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
-                    Rocket, Cherry tomatoes, garlic, chill & Olives
-                  </p>
                 </div>
+                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
+                    4-hour slow cooked rich mushroom ragu <b>(v)(vg)</b>
+                  </p>
               </div>
-
-              <div className="flex items-start space-x-2">
-                <div className="h-[5rem] w-[7rem] relative object-cover">
+              <div className="flex flex-col gap-y-[10px] ">
+                <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/linguini.jpg"
+                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
                     alt="menu"
                     fill
-                    className="rounded-full "
+                    className="rounded-xl"
                   />
                 </div>
-
-                <div className="flex flex-col gap-y-[13px] ">
-                  <div className="flex items-center  justify-between md:space-x-5">
-                    <h1 className="font-[700] text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-1">
-                      Linguini prawns orthodox
-                    </h1>
-                    <div className="flex items-center w-full space-x-[14px] flex-1">
-                      <div className="h-[2px] bg-primary w-full md:w-[12rem] "></div>
-                      <p className="text-primary">$20</p>
-                    </div>
+                <div className="flex items-center w-full  justify-between space-x-5 ">
+                  <h1 className="font-[700] font-century text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-2">
+                    Pappardelle Beef Bolognese
+                  </h1>
+                  <div className="flex items-center  space-x-[14px] ">
+                    <div className="h-[2px] bg-primary w-10 sm:w-20 flex-1"></div>
+                    <p className="text-primary">$16</p>
                   </div>
-                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
-                    Rocket, Cherry tomatoes, garlic, chill & Olives
-                  </p>
                 </div>
+                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
+                    6-hour slow cooked beef ragu
+                  </p>
               </div>
-              <div className="flex items-start space-x-2">
-                <div className="h-[5rem] w-[7rem] relative object-cover">
+              <div className="flex flex-col gap-y-[10px] ">
+                <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/linguini.jpg"
+                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
                     alt="menu"
                     fill
-                    className="rounded-full "
+                    className="rounded-xl"
                   />
                 </div>
-
-                <div className="flex flex-col gap-y-[13px] ">
-                  <div className="flex items-center  justify-between md:space-x-5">
-                    <h1 className="font-[700] text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-1">
-                      Linguini prawns orthodox
-                    </h1>
-                    <div className="flex items-center w-full space-x-[14px] flex-1">
-                      <div className="h-[2px] bg-primary w-full md:w-[12rem] "></div>
-                      <p className="text-primary">$20</p>
-                    </div>
+                <div className="flex items-center w-full  justify-between space-x-5 ">
+                  <h1 className="font-[700] font-century text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-2">
+                    Spaghetti Carbonara
+                  </h1>
+                  <div className="flex items-center  space-x-[14px] ">
+                    <div className="h-[2px] bg-primary w-10 sm:w-20 flex-1"></div>
+                    <p className="text-primary">$17</p>
                   </div>
-                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
-                    Rocket, Cherry tomatoes, garlic, chill & Olives
-                  </p>
                 </div>
+                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
+                    Guanciale, egg, parmesan, black pepper
+                  </p>
               </div>
-              <div className="flex items-start space-x-2">
-                <div className="h-[5rem] w-[7rem] relative object-cover">
+              <div className="flex flex-col gap-y-[10px] ">
+                <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/linguini.jpg"
+                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
                     alt="menu"
                     fill
-                    className="rounded-full "
+                    className="rounded-xl"
                   />
                 </div>
-
-                <div className="flex flex-col gap-y-[13px] ">
-                  <div className="flex items-center  justify-between md:space-x-5">
-                    <h1 className="font-[700] text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-1">
-                      Linguini prawns orthodox
-                    </h1>
-                    <div className="flex items-center w-full space-x-[14px] flex-1">
-                      <div className="h-[2px] bg-primary w-full md:w-[12rem] "></div>
-                      <p className="text-primary">$20</p>
-                    </div>
+                <div className="flex items-center w-full  justify-between space-x-5 ">
+                  <h1 className="font-[700] font-century text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-2">
+                    Porcini Risotto
+                  </h1>
+                  <div className="flex items-center  space-x-[14px] ">
+                    <div className="h-[2px] bg-primary w-10 sm:w-20 flex-1"></div>
+                    <p className="text-primary">$19</p>
                   </div>
-                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
-                    Rocket, Cherry tomatoes, garlic, chill & Olives
-                  </p>
                 </div>
+                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
+                    Truffle oil, pecorino cheese, fresh ricotta, basil <b>(v)</b>
+                  </p>
               </div>
-              <div className="flex items-start space-x-2">
-                <div className="h-[5rem] w-[7rem] relative object-cover">
+              <div className="flex flex-col gap-y-[10px] ">
+                <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/linguini.jpg"
+                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
                     alt="menu"
                     fill
-                    className="rounded-full "
+                    className="rounded-xl"
                   />
                 </div>
-
-                <div className="flex flex-col gap-y-[13px] ">
-                  <div className="flex items-center  justify-between md:space-x-5">
-                    <h1 className="font-[700] text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-1">
-                      Linguini prawns orthodox
-                    </h1>
-                    <div className="flex items-center w-full space-x-[14px] flex-1">
-                      <div className="h-[2px] bg-primary w-full md:w-[12rem] "></div>
-                      <p className="text-primary">$20</p>
-                    </div>
+                <div className="flex items-center w-full  justify-between space-x-5 ">
+                  <h1 className="font-[700] font-century text-[16px] sm:text-[20px] text-secondary leading-[24px] flex-2">
+                    Gnocchi
+                  </h1>
+                  <div className="flex items-center  space-x-[14px] ">
+                    <div className="h-[2px] bg-primary w-10 sm:w-20 flex-1"></div>
+                    <p className="text-primary">$17</p>
                   </div>
-                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
-                    Rocket, Cherry tomatoes, garlic, chill & Olives
-                  </p>
                 </div>
+                  <p className="font-[400] text-[14px] sm:text-[16px] text-secondary leading-[20px]">
+                    Burnt butter and sage, truffled ricotta, parmesan <b>(v)</b>
+                  </p>
               </div>
             </div>
           </div>

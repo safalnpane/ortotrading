@@ -13,7 +13,7 @@ function pizza() {
       </Head>
       <section>
         <div className="relative h-[200px] lg:h-[450px] w-full  flex items-center justify-center object-cover  ">
-          <Image src="/pizza2.png" alt="aboutus" fill />
+          <Image src="/salad.jpg" alt="aboutus" fill />
           <h1 className="font-century absolute mt-2 font-[700] text-[24px] md:text-[36px] text-white">
             Insalata
           </h1>

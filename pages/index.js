@@ -129,23 +129,14 @@ export default function Home() {
             <Link href="/menu/panini">
               <FoodMenu background={paninibg} name="Panini" />
             </Link>
-            <Link href="/menu/fish">
-              <FoodMenu background={fishbg} name="Fish" />
+            <Link href="/menu/insalata">
+              <FoodMenu background={fishbg} name="Insalata" />
             </Link>
-            <Link href="/menu/steaks">
-              <FoodMenu background={steaksbg} name="Steaks" />
-            </Link>
-            <Link href="/menu/burgers">
-              <FoodMenu background={burgersbg} name="Burgers" />
+            <Link href="/menu/primi">
+              <FoodMenu background={steaksbg} name="Primi" />
             </Link>
             <Link href="/menu/deserts">
               <FoodMenu background={desertsbg} name="Deserts" />
-            </Link>
-            <Link href="/menu/drinks">
-              <FoodMenu background={drinksbg} name="Drinks" />
-            </Link>
-            <Link href="/menu/appitizers">
-              <FoodMenu background={appitizersbg} name="Appitizers" />
             </Link>
           </div>
         </section>
