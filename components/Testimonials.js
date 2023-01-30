@@ -4,7 +4,7 @@ import React from "react";
 function Testimonials({ scale, fullName, title }) {
   return (
     <section
-      className={` ${scale} border-2 bg-white sm:w-[390px] md:w-[450px]   sm:h-[320px] transition duration-300 ease-in-out
+      className={` ${scale} border-2 bg-white sm:w-[390px] md:w-[450px]   
      shadow-xl rounded-[12px] space-y-[25px] px-3 py-5 flex-col font-century mx-auto border-primary`}
     >
       {/* head */}
@@ -26,9 +26,7 @@ function Testimonials({ scale, fullName, title }) {
         <p className="font-[400] text-[18px] leading-[22px] text-secondary">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus nibh
           mauris, nec turpis orci lectus maecenas. Suspendisse sed magna eget
-          nibh in turpis. Consequat duis diam lacus arcu. Faucibus venenatis
-          felis id augue sit cursus pellentesque enim Lorem ipsum dolor sit
-          amet,
+          Cursus nibh mauris, nec turpis orci lectus maecenas.
         </p>
       </div>
     </section>

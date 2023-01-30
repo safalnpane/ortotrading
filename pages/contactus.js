@@ -157,11 +157,11 @@ function contactus() {
           </div>
         </div>
         {/* map */}
-        <div className=" w-full h-[300px] relative object-cover  ">
+        {/* <div className=" w-full h-[300px] relative object-cover  ">
           <Image src="/map.png" alt="map" fill />
-        </div>
+        </div> */}
         {/* newsletter */}
-        <section className="lg:px-[100px]  w-full my-[1rem]  ">
+        {/* <section className="lg:px-[100px]  w-full my-[1rem]  ">
           <div className=" bg-[#EBEBEB] rounded-[20px] px-[25px] flex flex-col gap-y-[25px] text-center font-century py-[50px]">
             <div className="flex flex-col ">
               <h1 className="font-[700] text-[36px] mb-[15px]">Subscribe</h1>
@@ -185,7 +185,7 @@ function contactus() {
               </button>
             </div>
           </div>
-        </section>
+        </section> */}
       </section>
     </>
   );

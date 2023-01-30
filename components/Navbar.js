@@ -42,7 +42,7 @@ function Navbar() {
             </li>
           </Link>
 
-          <Link href="/menu/pizza">
+          <Link href="/menu/pasta">
             <li
               className={`${
                 router.pathname == "/menu" ? "text-primary" : ""

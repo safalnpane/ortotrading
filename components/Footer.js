@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { SocialIcon } from "react-social-icons";
 import logo from "../public/ortoLogo.png";
@@ -57,10 +58,12 @@ function Footer() {
           </div>
           {/* contact us  */}
           <div className="mx-auto">
-            <button className="font-century border w-[10rem] mx-auto border-black rounded-xl hover:border-white p-3 text-secondary font-[400] text-[20px] hover:bg-white hover:shadow-2xl hover:text-secondary">
-              {" "}
-              Contact Us
-            </button>
+            <Link href="/contactus">
+              <button className="font-century border w-[10rem] mx-auto border-black rounded-xl hover:border-white p-3 text-secondary font-[400] text-[20px] hover:bg-white hover:shadow-2xl hover:text-secondary">
+                {" "}
+                Contact Us
+              </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -69,12 +72,20 @@ function Footer() {
           Quick Links
         </h1>
         <ul className="flex flex-col gap-y-[22px] font-[400] text-[16px] leading-[20px] text-secondary">
-          <li>Home</li>
-          <li>About Us</li>
-          <li>Gallery</li>
+          <Link href="/">
+            <li>Home</li>
+          </Link>
+          <Link href="/about">
+            <li>About Us</li>
+          </Link>
+          <Link href="/gallery">
+            <li>Gallery</li>
+          </Link>
           <li>Book A Table</li>
           <li>Services</li>
-          <li>Contact Us</li>
+          <Link href="/contactus">
+            <li>Contact Us</li>
+          </Link>
         </ul>
       </div>
       <div className="flex flex-col gap-y-[22px] w-full text-center">
@@ -82,14 +93,21 @@ function Footer() {
           Menu
         </h1>
         <ul className="flex flex-col gap-y-[22px] font-[400] text-[16px] leading-[20px] text-secondary">
-          <li>Pasta</li>
-          <li>Panini</li>
-          <li>Fish</li>
-          <li>Burgers</li>
-          <li>Drinks</li>
-          <li>Appitizers</li>
-          <li>Steaks</li>
-          <li>Desserts</li>
+          <Link href="/menu/pasta">
+            <li>Pasta</li>
+          </Link>
+          <Link href="/menu/panini">
+            <li>Panini</li>
+          </Link>
+          <Link href="/menu/insalata">
+            <li>Insalata</li>
+          </Link>
+          <Link href="/menu/primi">
+            <li>Primi</li>
+          </Link>
+          <Link href="/menu/deserts">
+            <li>Desserts</li>
+          </Link>
         </ul>
       </div>
       <div className="flex flex-col gap-y-[22px] w-full text-center">

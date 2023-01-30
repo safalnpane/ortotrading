@@ -26,7 +26,6 @@ import Testimonials from "../components/Testimonials";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  const names = ["Sijan Neupane", "Hari", "Shyam"];
   SwiperCore.use([Autoplay]);
   return (
     <>
@@ -146,29 +145,14 @@ export default function Home() {
           <h1 className="text-[36px] font-[700] leading-[44px] text-center">
             What Our Customers Say About Us
           </h1>
-          <div className="px-6 lg:px-[100px] w-full justify-center mx-auto items-center flex h-full overflow-hidden">
-            <Swiper
-              centeredSlides={true}
-              grabCursor={true}
-              speed={2000}
-              autoplay={{ delay: 2000, pauseOnMouseEffect: false }}
-              gapwidth={20}
-              spaceBetween={50}
-              slidesPerView={1}
-              loop={true}
-            >
-              {names.map((name, index) => (
-                <SwiperSlide key={index}>
-                  {({ isActive }) => (
-                    <Testimonials fullName={name} title="It is awesome" />
-                  )}
-                </SwiperSlide>
-              ))}
-            </Swiper>
+          <div className="px-6 lg:px-[25px]  w-full  justify-between items-center flex flex-col gap-y-10 lg:space-x-20 lg:flex-row h-full ">
+            <Testimonials fullName="sijan" />
+            <Testimonials fullName="sijan" />
+            <Testimonials fullName="sijan" />
           </div>
         </section>
         {/* newsletter */}
-        <section className="md:px-[100px] ">
+        {/* <section className="md:px-[100px] ">
           <div className=" bg-[#EBEBEB] rounded-[20px] px-4  flex flex-col gap-y-[25px] text-center font-century py-[50px]">
             <div className="flex flex-col ">
               <h1 className="font-[700] text-[36px] mb-[15px]">Subscribe</h1>
@@ -192,7 +176,7 @@ export default function Home() {
               </button>
             </div>
           </div>
-        </section>
+        </section> */}
       </main>
     </>
   );
