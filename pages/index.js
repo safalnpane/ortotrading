@@ -122,7 +122,7 @@ export default function Home() {
             Our Menu
           </h1>
           <div className="flex flex-wrap items-center justify-center w-full  space-y-[20px]">
-            <Link href="/menu/pasta">
+            <Link href="/menu/panini">
               <FoodMenu background={pastabg} name="Pasta" />
             </Link>
             <Link href="/menu/panini">

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-function gallery() {
+function Gallery() {
   const [toshow, setToshow] = React.useState("Gallery");
   return (
     <>
@@ -90,4 +90,4 @@ function gallery() {
   );
 }
 
-export default gallery;
+export default Gallery;

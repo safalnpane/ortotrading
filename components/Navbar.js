@@ -51,10 +51,10 @@ function Navbar() {
               Menu
             </li>
           </Link>
-          <Link href="/gallery">
+          <Link href="/Gallery">
             <li
               className={`${
-                router.pathname == "/gallery" ? "text-primary" : ""
+                router.pathname == "/Gallery" ? "text-primary" : ""
               } hover:text-primary  cursor-pointer`}
             >
               Gallery
@@ -123,7 +123,7 @@ function Navbar() {
                 Menu
               </li>
             </Link>
-            <Link href="/gallery">
+            <Link href="/Gallery">
               <li
                 className="cursor-pointer py-3 border-b-2 border-primary"
                 onClick={() => setShow(false)}
