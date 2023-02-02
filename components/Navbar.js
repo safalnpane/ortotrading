@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import React from "react";
-import logo from "../public/ortoLogo.png";
+import logo from "../public/logo.png";
 
 function Navbar() {
   const router = useRouter();
@@ -18,7 +18,7 @@ function Navbar() {
     >
       <Link href="/">
         <div className="relative h-[50px] w-[50px] md:h-[100px] md:w-[100px] object-contain">
-          <Image src={logo} alt="logo" fill />
+          <Image src={logo} alt="logo" fill/>
         </div>
       </Link>
       <div>
