@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 function Carousel({ img, text1, text2, alt }) {
   return (
@@ -16,23 +17,14 @@ function Carousel({ img, text1, text2, alt }) {
               <h1 className="font-[700] text-[20px]   md:text-[36px] md:leading-[35px] lg:leading-[24px] leading-[24px] text-black">
                 {text2}{" "}
               </h1>
-            </div>
-            <h2 className="font-[400] text-[16px] md:text-[24px]  leading-[24px] text-primary">
-              Book Your Table Now
-            </h2>
-          </div>
-        </div>
-
-        {/* button */}
-        <div className="flex space-x-[10px] sm:space-x-[16px]">
-          <div className="w-[5px] rounded-[2px] h-[86.42px] bg-primary "></div>
-          <div className="flex items-center  space-x-5">
+              <div className="flex items-center  space-x-5">
+              <Link href="/menu/pasta">
             <button className="sm:px-[30px] px-[5px] py-[8px] sm:py-[15px] bg-primary text-white rounded-[18px] font-[400] text-[12px] md:text-[16px] xl:text-[20px] hover:bg-white hover:shadow-xl hover:text-primary">
               View Menu
             </button>
-            <button className="sm:px-[30px] px-[10px] py-[10px] sm:py-[15px] bg-primary text-white rounded-[18px] font-[400] text-[12px] md:text-[16px] xl:text-[20px] hover:bg-white hover:shadow-xl hover:text-primary">
-              Book A Table
-            </button>
+            </Link>
+          </div>
+            </div>
           </div>
         </div>
       </div>

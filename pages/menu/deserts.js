@@ -13,7 +13,7 @@ function pizza() {
       </Head>
       <section>
         <div className="relative h-[200px] lg:h-[450px] w-full  flex items-center justify-center object-cover  ">
-          <Image src="https://images.unsplash.com/photo-1611292984550-6dd8def2e668?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2207&q=80" alt="aboutus" fill />
+          <Image src="/cannoli_preview.png" alt="aboutus" fill />
           <h1 className="font-century absolute mt-2 font-[700] text-[24px] md:text-[36px] text-white">
             DESERTS
           </h1>
@@ -66,7 +66,7 @@ function pizza() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://images.unsplash.com/photo-1611292984550-6dd8def2e668?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2207&q=80"
+                    src="/cannoli.png"
                     alt="menu"
                     fill
                     className="rounded-xl"

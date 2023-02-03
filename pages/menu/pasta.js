@@ -134,7 +134,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
+                    src="/gamberi.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -157,7 +157,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
+                    src="/malfade.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -224,7 +224,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
+                    src="/carbonara.png"
                     alt="menu"
                     fill
                     className="rounded-xl"

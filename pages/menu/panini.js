@@ -67,7 +67,7 @@ function pizza() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://images.unsplash.com/photo-1531086493697-9caa8df3449e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2234&q=80"
+                    src="/porchetta.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -134,7 +134,7 @@ function pizza() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://images.unsplash.com/photo-1531086493697-9caa8df3449e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2234&q=80"
+                    src="/sicillian_boss.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -224,7 +224,7 @@ function pizza() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://images.unsplash.com/photo-1531086493697-9caa8df3449e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2234&q=80"
+                    src="/sopressa.png"
                     alt="menu"
                     fill
                     className="rounded-xl"

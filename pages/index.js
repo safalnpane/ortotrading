@@ -9,14 +9,13 @@ import burgersbg from "../public/burgersbg.png";
 import paninibg from "../public/paninibg.png";
 import appitizersbg from "../public/appitizersbg.png";
 
-import desertsbg from "../public/desertsbg.png";
-import drinksbg from "../public/drinksbg.png";
-import fishbg from "../public/fishbg.png";
-import steaksbg from "../public/steaksbg.png";
-import pastabg from "../public/pastabg.png";
-import pasta from "../public/pasta.svg";
-import pizza from "../public/pizza2.svg";
-import panini from "../public/panini.svg";
+import desertsbg from "../public/cannoli_preview.png";
+import pastabg from "../public/rigatoni_norma.png";
+import pasta from "../public/gamberi.png";
+import homemade_porchetta from "../public/homemade_porchetta.png";
+import panini from "../public/sicillian_boss.png";
+import primi from "../public/antipasto.png"
+import salad from "../public/salad.jpg"
 import ortobg from "../public/ortobg.png";
 import Link from "next/link";
 
@@ -56,9 +55,9 @@ export default function Home() {
             <SwiperSlide>
               <div className="xl:bg-white h-auto   w-full sm:pl-[25px] lg:pl-[100px]">
                 <Carousel
-                  img={pizza}
-                  text1="Work Hard, Be Nice"
-                  text2="Eat Pizza"
+                  img={homemade_porchetta}
+                  text1="Home made Porchetta"
+                  text2={"come and  \"pig\" out."}
                   alt="pizza"
                 />
               </div>
@@ -122,17 +121,17 @@ export default function Home() {
             Our Menu
           </h1>
           <div className="flex flex-wrap items-center justify-center w-full  space-y-[20px]">
-            <Link href="/menu/panini">
+            <Link href="/menu/pasta">
               <FoodMenu background={pastabg} name="Pasta" />
             </Link>
             <Link href="/menu/panini">
-              <FoodMenu background={paninibg} name="Panini" />
+              <FoodMenu background={panini} name="Panini" />
             </Link>
             <Link href="/menu/insalata">
-              <FoodMenu background={fishbg} name="Insalata" />
+              <FoodMenu background={salad} name="Insalata" />
             </Link>
             <Link href="/menu/primi">
-              <FoodMenu background={steaksbg} name="Primi" />
+              <FoodMenu background={primi} name="Primi" />
             </Link>
             <Link href="/menu/deserts">
               <FoodMenu background={desertsbg} name="Deserts" />
