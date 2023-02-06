@@ -5,9 +5,6 @@ import Carousel from "../components/Carousel";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay } from "swiper";
 import "swiper/css";
-import burgersbg from "../public/burgersbg.png";
-import paninibg from "../public/paninibg.png";
-import appitizersbg from "../public/appitizersbg.png";
 
 import desertsbg from "../public/cannoli_preview.png";
 import pastabg from "../public/rigatoni_norma.png";
