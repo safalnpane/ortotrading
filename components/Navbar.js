@@ -51,7 +51,7 @@ function Navbar() {
               Menu
             </li>
           </Link>
-          <Link href="/Gallery">
+          <Link href="/gallery">
             <li
               className={`${
                 router.pathname == "/Gallery" ? "text-primary" : ""

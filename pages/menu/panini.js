@@ -13,7 +13,7 @@ function pizza() {
       </Head>
       <section>
         <div className="relative h-[200px] lg:h-[450px] w-full  flex items-center justify-center object-cover  ">
-          <Image src="/bread.jpg" alt="aboutus" fill />
+          <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/bread.jpg" alt="aboutus" fill />
           <h1 className="font-century absolute mt-2 font-[700] text-[24px] md:text-[36px] text-white">
             PANINI
           </h1>
@@ -67,7 +67,7 @@ function pizza() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/porchetta.png"
+                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/porchetta.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -134,7 +134,7 @@ function pizza() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/sicillian_boss.png"
+                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/sicillian_boss.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -224,7 +224,7 @@ function pizza() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/sopressa.png"
+                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/sopressa.png"
                     alt="menu"
                     fill
                     className="rounded-xl"

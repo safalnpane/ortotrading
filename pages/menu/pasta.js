@@ -13,7 +13,7 @@ function pasta() {
       </Head>
       <section>
         <div className="relative h-[200px] lg:h-[450px] w-full object-fill flex items-center justify-center  ">
-          <Image src="/menubg.png" alt="aboutus" fill />
+          <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/menubg.png" alt="aboutus" fill />
           <h1 className="font-century absolute mt-2 font-[700] text-[24px] md:text-[36px] text-white">
             PASTA
           </h1>
@@ -66,7 +66,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/rigatoni_norma.png"
+                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/rigatoni_norma.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -89,7 +89,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
+                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/sample_pasta.jpg"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -112,7 +112,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/rigatoni_salmone.png"
+                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/rigatoni_salmone.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -134,7 +134,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/gamberi.png"
+                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/gamberi.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -157,7 +157,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/malfade.png"
+                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/malfade.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -180,7 +180,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
+                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/sample_pasta.jpg"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -202,7 +202,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
+                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/sample_pasta.jpg"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -224,7 +224,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/carbonara.png"
+                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/carbonara.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -246,7 +246,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
+                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/sample_pasta.jpg"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -268,7 +268,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://imgs.search.brave.com/4e6CV3qid2QQREvnGusIYjQZtgyfOsYC_loB8RaMMFE/rs:fit:554:554:1/g:ce/aHR0cHM6Ly93d3cu/bGVjcmV1c2V0LmNv/LnphL3JlY2lwZXMv/d3AtY29udGVudC91/cGxvYWRzLzIwMjAv/MDEvWmVuLVJlY2lw/ZS1TaXRlLUltYWdl/czE1LTU1NHg1NTQu/anBn"
+                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/sample_pasta.jpg"
                     alt="menu"
                     fill
                     className="rounded-xl"

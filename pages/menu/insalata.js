@@ -13,7 +13,7 @@ function pizza() {
       </Head>
       <section>
         <div className="relative h-[200px] lg:h-[450px] w-full  flex items-center justify-center object-cover  ">
-          <Image src="/rocket_salad.jpg" alt="aboutus" fill />
+          <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/rocket_salad.jpg" alt="aboutus" fill />
           <h1 className="font-century absolute mt-2 font-[700] text-[24px] md:text-[36px] text-white">
             Insalata
           </h1>
@@ -89,7 +89,7 @@ function pizza() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/rocket_salad.jpg"
+                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/rocket_salad.jpg"
                     alt="menu"
                     fill
                     className="rounded-xl"
