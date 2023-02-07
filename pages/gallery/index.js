@@ -12,7 +12,7 @@ function Gallery() {
       </Head>
       <section>
         <div className="relative h-[200px] md:h-[450px] w-full flex items-center justify-center  ">
-          <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/gallerybg.png" alt="aboutus" fill />
+          <Image src="/gallerybg.png" alt="aboutus" fill />
           <h1 className="font-century absolute mt-2 font-[700] text-[24px] md:text-[36px] text-white">
             {toshow}
           </h1>
@@ -54,34 +54,34 @@ function Gallery() {
         {/* gallery */}
         <div className="h-auto md:px-[100px]  grid grid-cols-3 grid-flow-rows gap-[5px] grid-flow-dense auto-rows-auto   ">
           <div className="object-cover relative   w-full  align-middle h-full flex items-center justify-center">
-            <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/galleryimg/img1.png" alt="" fill />
+            <Image src="/img1.png" alt="" fill />
           </div>
           <div className="object-cover relative w-full row-span-2  align-middle h-full flex items-center justify-center">
-            <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/galleryimg/img5.png" alt="" fill />
+            <Image src="/img5.png" alt="" fill />
           </div>
           <div className="object-cover relative  w-full h-[100px]  align-middle lg:h-[200px] flex items-center justify-center">
-            <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/aboutusbg.png" alt="" fill />
+            <Image src="/aboutusbg.png" alt="" fill />
           </div>
           <div className="object-cover relative w-full h-[100px] align-middle lg:h-full flex items-center justify-center">
-            <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/galleryimg/img3.png" alt="" fill />
+            <Image src="/img3.png" alt="" fill />
           </div>
           <div className="object-cover relative  w-full h-[100px] align-middle lg:h-full flex items-center justify-center">
-            <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/galleryimg/img2.png" alt="" fill />
+            <Image src="/img2.png" alt="" fill />
           </div>
           <div className="object-cover relative w-full h-[100px]  align-middle lg:h-full flex items-center justify-center">
-            <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/burgersbg.png" alt="" fill />
+            <Image src="/burgersbg.png" alt="" fill />
           </div>
           <div className="object-cover relative w-full h-[100px] align-middle lg:h-[200px] flex items-center justify-center">
-            <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/galleryimg/img4.png" alt="" fill />
+            <Image src="/img4.png" alt="" fill />
           </div>
           <div className="object-cover relative w-full h-full row-span-2 align-middle flex items-center justify-center">
-            <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/galleryimg/img3.png" alt="" fill />
+            <Image src="/img3.png" alt="" fill />
           </div>
           <div className="object-cover relative w-full h-[100px]  align-middle lg:h-[200px] flex items-center justify-center">
-            <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/galleryimg/img2.png" alt="" fill />
+            <Image src="/img2.png" alt="" fill />
           </div>
           <div className="object-cover relative w-full h-[100px]  align-middle lg:h-[200px] flex items-center justify-center">
-            <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/burgersbg.png" alt="" fill />
+            <Image src="/burgersbg.png" alt="" fill />
           </div>
         </div>
       </section>

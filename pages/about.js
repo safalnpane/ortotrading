@@ -45,12 +45,12 @@ function aboutUs() {
             </div>
           </div>
           <div className="relative object-contain  w-full h-[400px] lg:w-[600px] lg:flex-1">
-            <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/ortobg.png" alt="ortobg" fill />
+            <Image src="/ortobg.png" alt="ortobg" fill />
           </div>
         </div>
         <div className=" flex flex-col gap-y-10 lg:gap-y-0 lg:flex-row items-center px-[20px] sm:px-[100px] py-[50px] md:py-[100px] w-full lg:justify-between lg:space-x-10">
           <div className="relative object-contain h-[400px] w-full lg:w-[600px] lg:flex-1">
-            <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/ortobg.png" alt="ortobg" fill />
+            <Image src="/ortobg.png" alt="ortobg" fill />
           </div>
           <div className="flex flex-col space-y-[25px] lg:flex-1">
             <div className="text-center">
@@ -96,7 +96,7 @@ function aboutUs() {
             </Link>
           </div>
           <div className="h-[365px] w-full sm:w-[356px] relative object-contain">
-            <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/chef.png" alt="chef" fill />
+            <Image src="/chef.png" alt="chef" fill />
           </div>
         </div>
       </section>

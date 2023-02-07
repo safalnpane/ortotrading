@@ -11,7 +11,7 @@ function contactus() {
       </Head>
       <section>
         <div className="relative h-[200px] md:h-[450px] w-full object-cover aspect-square flex items-center justify-center  ">
-          <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/contactbg.png" alt="contactus" fill />
+          <Image src="/contactbg.png" alt="contactus" fill />
           <h1 className="font-century absolute mt-2 font-[700] text-[24px] md:text-[36px] text-white">
             CONTACT US
           </h1>

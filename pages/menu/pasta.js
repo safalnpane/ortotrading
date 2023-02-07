@@ -13,7 +13,7 @@ function pasta() {
       </Head>
       <section>
         <div className="relative h-[200px] lg:h-[450px] w-full object-fill flex items-center justify-center  ">
-          <Image src="https://orto-media.s3.ap-southeast-2.amazonaws.com/menubg.png" alt="aboutus" fill />
+          <Image src="/menubg.png" alt="aboutus" fill />
           <h1 className="font-century absolute mt-2 font-[700] text-[24px] md:text-[36px] text-white">
             PASTA
           </h1>
@@ -66,7 +66,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/rigatoni_norma.png"
+                    src="/rigatoni_norma.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -89,7 +89,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/sample_pasta.jpg"
+                    src="/sample_pasta.jpg"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -112,7 +112,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/rigatoni_salmone.png"
+                    src="/rigatoni_salmone.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -134,7 +134,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/gamberi.png"
+                    src="/gamberi.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -157,7 +157,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/malfade.png"
+                    src="/malfade.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -180,7 +180,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/sample_pasta.jpg"
+                    src="/sample_pasta.jpg"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -202,7 +202,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/sample_pasta.jpg"
+                    src="/sample_pasta.jpg"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -224,7 +224,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/carbonara.png"
+                    src="/carbonara.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -246,7 +246,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/sample_pasta.jpg"
+                    src="/sample_pasta.jpg"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -268,7 +268,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/sample_pasta.jpg"
+                    src="/sample_pasta.jpg"
                     alt="menu"
                     fill
                     className="rounded-xl"

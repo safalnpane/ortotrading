@@ -67,7 +67,7 @@ function pizza() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/bruschetta.png"
+                    src="/bruschetta.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
@@ -86,7 +86,7 @@ function pizza() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="https://orto-media.s3.ap-southeast-2.amazonaws.com/antipasto.png"
+                    src="/antipasto.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
