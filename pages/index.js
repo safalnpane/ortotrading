@@ -136,7 +136,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* testimonials */}
+        {/* testimonials
         <section className="  xl:px-[160px] py-[50px] font-century flex flex-col justify-center space-y-[50px] mb-[50px] ">
           <h1 className="text-[36px] font-[700] leading-[44px] text-center">
             What Our Customers Say About Us
@@ -146,7 +146,7 @@ export default function Home() {
             <Testimonials fullName="sijan" />
             <Testimonials fullName="sijan" />
           </div>
-        </section>
+        </section> */}
         {/* newsletter */}
         {/* <section className="md:px-[100px] ">
           <div className=" bg-[#EBEBEB] rounded-[20px] px-4  flex flex-col gap-y-[25px] text-center font-century py-[50px]">
