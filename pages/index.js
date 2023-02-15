@@ -12,8 +12,8 @@ import pasta from "../public/gamberi.png";
 import homemade_porchetta from "../public/homemade_porchetta.png";
 import panini from "../public/sicillian_boss.png";
 import primi from "../public/antipasto.png"
-import salad from "../public/salad.jpg"
-import ortobg from "../public/ortobg.png";
+import salad from "../public/tomato.png"
+import ortobg from "../public/outside.png";
 import Link from "next/link";
 
 import FoodMenu from "../components/FoodMenu";
