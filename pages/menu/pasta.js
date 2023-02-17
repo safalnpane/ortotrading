@@ -89,7 +89,7 @@ function pasta() {
               <div className="flex flex-col gap-y-[10px] ">
                 <div className="h-[10rem] w-[15rem] relative object-cover mx-auto">
                   <Image
-                    src="/sample_pasta.jpg"
+                    src="/ravioli.png"
                     alt="menu"
                     fill
                     className="rounded-xl"
